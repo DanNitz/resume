@@ -75,7 +75,6 @@ button:hover {
     margin: 1em 3em;
     text-align: center;
     border: solid .75em rgb(0, 0, 0);
-    border-radius: 2em;
 }
 
 /* Navigation */
