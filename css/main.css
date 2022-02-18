@@ -148,11 +148,11 @@ button:hover {
     width: 80%;
 }
 
-.skills li {
+.techSkills li {
     padding-top: .5em;
 }
 
-.techSkills li {
+.skills li {
     padding-top: .5em;
     list-style: disc;
     list-style-position: inside;
