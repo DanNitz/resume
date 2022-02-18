@@ -76,6 +76,7 @@ button:hover {
     text-align: center;
     border: solid .75em rgb(0, 0, 0);
 }
+/* ----------------------------------------- */
 
 /* Navigation */
 
@@ -83,7 +84,11 @@ button:hover {
     max-height: 7.5em;
     align-content: center;
     display: block;
+    margin-top: 2px;
     margin: auto;
+    border-radius: 50%;
+    border: solid 1px white;
+
 }
 
 .navigation {
@@ -126,10 +131,13 @@ button:hover {
 }
 
 .main-img {
-    max-height: 650px;
-    max-width: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+    max-height: 400px;
+    max-width: 75%;
     display: block;
     margin: auto;
+    padding: 10px;
 }
 
 .col-2 {
@@ -152,99 +160,6 @@ button:hover {
 
 /*
 =======================
-About Page
-=======================
-*/
-
-.main-content-about {
-    margin-bottom: 2em;
-}
-
-.abt-img-1 {
-    width: 100%;
-    height: 700px;
-    background-image: url("");
-    background-size: cover;
-}
-
-.abt-text-container-1 {
-    text-align: center;
-    font-size: 1.15em;
-    background: rgba(100,100,100,.8);
-    position: relative;
-    top: 62%;
-    margin: 1em;
-}
-
-.abt-img-1 p {
-    padding: .5em;
-}
-
-.main-content-about h1 {
-    margin-left: .75em;
-    text-align: center;
-}
-
-.abt-sec-2 {
-    margin: 1em;
-    display: flex;
-}
-
-.abt-sec-3 {
-    display: block;
-    margin: 2em;
-    text-align: center;
-    font-size: .75rem;
-}
-
-.abt-img-3,
-.abt-img-2 {
-    width: 95%;
-    display: block;
-    margin: auto;
-}
-
-
-/*
-=======================
-Packages Page
-=======================
-*/
-
-.main-content-packages {
-    margin: 1em;
-    padding: 1em;
-    text-align: center;
-}
-
-.main-content-packages h1{
-    background-color: #d9fff2;
-    padding: .5em;
-    margin: .5em 1em;
-    color: #096;
-    border-radius: 1em;
-    font-size: 1.75rem;
-}
-
-.pac-col-1,
-.pac-col-2{
-    background-color: #096;
-    border: solid #d9fff2 .75em;
-    border-radius: 3em;
-    margin: 1em;
-    padding: .5em;
-    font-size: 1.15rem;
-}
-
-.pac-col-1 ul,
-.pac-col-2 ul {
-    text-align: left;
-    list-style: disc;
-    margin: 1em;
-}
-
-/*
-=======================
 Form Styles
 =======================
 */
@@ -253,11 +168,11 @@ form {
     margin: 2em;
 }
 
-input,textarea,label{
+input,textarea,label,select,button{
     display: block;
-    padding: .75em;
+    padding: .5em;
     width: 100%;
-    border-radius: 1em;
+    border-radius: .5em;
 }
 
 input {
@@ -274,6 +189,8 @@ label {
     color: #096
 }
 
+
+
 .main-content-contact {
     display: block;
     margin: auto;
@@ -281,20 +198,6 @@ label {
 .main-content-contact h1{
     text-align: center;
 }
-
-#song-input-form{
-    max-width: 438px;
-    display: block;
-    margin: auto;
-    margin-bottom: 1em;
-}
-
-#form-btn {
-    display: block;
-    margin: auto;
-}
-
-
 
 /* footer section */
 
@@ -329,19 +232,7 @@ label {
 .main-content {
   padding-top: 7.5em;      
   }    
-.main-content-about {
-  padding-top: 6.5em;      
-  }    
-.main-content-packages {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding-top: 8em;      
-  }    
-.main-content-contact{
-  padding-top: 8em;      
-  }    
-    
+
 .nav-header,
 .navigation,
 .logo,
@@ -379,60 +270,13 @@ label {
     width: 60%;
     margin-right: 1em;
     margin-left: 1em;
-  }        
-    
-.mantra-div {
-    width: 75%;
-    display:block;
-    margin: 1em auto;
-    }    
-    
-/* about page  */
-    
-.abt-text-container-1 {
-    margin-left: 20%;
-  } 
-
-.main-content-about h1 {
-    font-size: 3rem;
-  }
-    
-.abt-img-3, 
-.abt-img-2 {
-    width: 90%;
-  }    
-    
-.abt-sec-3{
-    font-size: 1.1rem;    
-    }    
-    
-/* packages page  */
-
-.main-content-packages h1{
-    font-size: 2.5rem;
-  }
-    
-.pac-col-1,
-.pac-col-2 {
-    width: 75%;
-    margin: 2em auto 1em;
- } 
-    
-    
+  }         
+        
 @media (min-width:1024px) {
     
 .col-2 {
     width: 55%;
   }
-.abt-text-container-1 {
-        font-size: 1.3rem;
-        margin-left: 30%;
-    } 
-
-.pac-col-1 ul,
-.pac-col-2 ul {
-    margin-left: 4em;
-    }
     
 	}
 }
