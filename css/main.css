@@ -33,7 +33,7 @@ footer {
     background-color: rgb(30, 30, 30);
 }
 
-button {
+button, #submit {
     margin: .25em;
     padding: .1em;
     padding-left: 1em;
@@ -41,6 +41,12 @@ button {
     border-radius: 5px;
     background: #376656;
     color: white;
+}
+
+#submit:hover{
+    box-shadow: .1em .1em .8em rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    color: #376656;
 }
 
 button:hover {
@@ -168,10 +174,6 @@ input,textarea,label,select,button{
     padding: .5em;
     width: 100%;
     border-radius: .5em;
-}
-
-input {
-   width: 100% 
 }
 
 textarea{
