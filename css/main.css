@@ -109,7 +109,7 @@ button:hover {
     list-style: none;
     background: rgb(0, 0, 0);
     border: solid .5px white;
-    max-width: 40%;
+    max-width: 150px;
     margin: 0 auto .5em;
     border-radius: 1px;
 }
