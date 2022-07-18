@@ -109,7 +109,6 @@ button:hover {
     list-style: none;
     background: rgb(0, 0, 0);
     border: solid .5px white;
-    max-width: 150px;
     margin: 0 auto .5em;
     border-radius: 1px;
 }
@@ -271,7 +270,9 @@ aside {
 }          
 
 @media (min-width:1024px) {
-
+.navigation{
+    width:150px;
+}
 aside {
     width: 600px;
 }            
