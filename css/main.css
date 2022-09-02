@@ -158,6 +158,10 @@ button:hover {
     list-style-position: inside;
 }
 
+#addInfo {
+    padding: 2em;
+}
+
 /*
 =======================
 Form Styles
